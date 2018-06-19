@@ -13,7 +13,7 @@ Stops monit before an RPM transaction and starts it afterwards
 to make sure that monit will not interfere with the update process.
 
 %prep
-%setup -q -n %{name}
+%setup
 
 %build
 

@@ -14,6 +14,12 @@ make install
 make uninstall
 ```
 
+# Build RPM
+
+```bash
+rpmbuild --undefine=_disable_source_fetch -ba yum-plugin-monit.spec
+```
+
 # How It Works
 
 The plugin uses two hooks:
